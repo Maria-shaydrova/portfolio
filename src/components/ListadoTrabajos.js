@@ -11,7 +11,7 @@ export const ListadoTrabajos = ({max}) => {
           return(
           <article key={trabajo.id} className='work-item'>
             <div className='mask'>
-              <img src={"./images/proyectos/"+ trabajo.id + ".png"} alt='trabajo.id'/>
+              <img src={process.env.PUBLIC_URL + "/images/proyectos/"+ trabajo.id + ".png"} alt='trabajo.id'/>
             </div>
             <span>{trabajo.categorias}</span>
             <h2 className='title'><Link to={"/proyecto/"+trabajo.id}>{trabajo.nombre}</Link></h2>
