@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Routes, Route, Navigate} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import {Inicio} from '../components/Inicio';
 import {Portafolio} from '../components/Portafolio';
 import {Curriculum} from '../components/Curriculum';
@@ -10,7 +10,7 @@ import { Proyecto } from '../components/Proyecto';
 
 export const MisRutas = () => {
   return (
-    <HashRouter>
+    <Router basename="/portfolio">
 
         {/* HEADER Y NAVEGACION */}
         <HeaderNav />
@@ -36,6 +36,6 @@ export const MisRutas = () => {
 
         {/* FOOTER */}
         <Footer />
-    </HashRouter>
+    </Router>
   )
 }
