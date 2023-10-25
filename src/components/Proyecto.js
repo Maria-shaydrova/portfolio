@@ -26,26 +26,26 @@ export const Proyecto = () => {
           <a href={'https://' + proyecto.url} target='_blank' rel="noopener noreferrer">Ir al proyecto</a>
         </div>
         <div className='mask'>
-          <img src={"/images/proyectos/" + proyecto.id + ".png"} alt={proyecto.id} />
+          <img src={process.env.PUBLIC_URL + `/images/proyectos/${proyecto.id}.png`} alt={proyecto.id} />
         </div>
       </div>
       <p className='descripcion'>{proyecto.descripcion}</p>
       <h2 className='visualizacion'>Visualización:</h2>
       <div className='capturas'>
-        <img
-          src={"/images/capturas/captura1-" + proyecto.id + ".png"}
+      <img
+          src={process.env.PUBLIC_URL + `/images/capturas/captura1-${proyecto.id}.png`}
           alt={proyecto.id}
-          onClick={() => mostrarCapturaAmpliada("/images/capturas/captura1-" + proyecto.id + ".png")}
+          onClick={() => mostrarCapturaAmpliada(process.env.PUBLIC_URL + `/images/capturas/captura1-${proyecto.id}.png`)}
         />
         <img
-          src={"/images/capturas/captura2-" + proyecto.id + ".png"}
+          src={process.env.PUBLIC_URL + `/images/capturas/captura2-${proyecto.id}.png`}
           alt={proyecto.id}
-          onClick={() => mostrarCapturaAmpliada("/images/capturas/captura2-" + proyecto.id + ".png")}
+          onClick={() => mostrarCapturaAmpliada(process.env.PUBLIC_URL + `/images/capturas/captura2-${proyecto.id}.png`)}
         />
         <img
-          src={"/images/capturas/captura3-" + proyecto.id + ".png"}
+          src={process.env.PUBLIC_URL + `/images/capturas/captura3-${proyecto.id}.png`}
           alt={proyecto.id}
-          onClick={() => mostrarCapturaAmpliada("/images/capturas/captura3-" + proyecto.id + ".png")}
+          onClick={() => mostrarCapturaAmpliada(process.env.PUBLIC_URL + `/images/capturas/captura3-${proyecto.id}.png`)}
         />
       </div>
 
