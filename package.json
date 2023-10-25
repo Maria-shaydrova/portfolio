@@ -2,7 +2,7 @@
   "name": "08-proyecto2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Maria-shaydrova.github.io/portfolio",
+  "homepage": "https://maria-shaydrova.github.io/portfolio",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.17.0",
