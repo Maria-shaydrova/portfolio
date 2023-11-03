@@ -34,7 +34,7 @@ export const Inicio = () => {
         <h3>ACTUALIDAD Y FUTURO</h3>
         <p>
           Me posiciono como <strong>junior front-end developer</strong> con ganas de poner en práctica los conocimientos que he adquirido durante el último año y aprender nuevas tecnologías en el entorno laboral.<br></br><br></br>
-          Mi visión para el futuro es formar parte de la comunidad tecnológica, continuar con mi aprendizaje y desarollar habilidades para aportar soluciones a los retos que plantean los proyectos reales, con el fin de mejorar la expriencia de usuario, la accesibilidad y la eficiencia de las aplicaciones web.
+          Mi visión para el futuro es formar parte de la comunidad tecnológica, continuar con mi aprendizaje y desarollar habilidades para aportar soluciones a los retos que plantean los proyectos reales, con el fin de mejorar la experiencia de usuario, la accesibilidad y la eficiencia de las aplicaciones web.
         </p>
         <br></br>
 
